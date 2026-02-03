@@ -1,0 +1,31 @@
+.footer {
+    background: linear-gradient(135deg, #df6fd9 0%, #6a6ce0 100%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-links li a:hover {
+    text-decoration: underline;
+  }
+  

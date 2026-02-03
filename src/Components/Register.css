@@ -1,0 +1,112 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 14px 12px rgb(#ccc); */
+    /* border-radius: 10px; */  
+}
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 400px;
+    width: 400px; 
+    gap: 15px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgb(0,0,0,0.75);
+    border-radius: 20px; 
+    background: linear-gradient(135deg, #177e79 0%, #8081e4 100%);    
+}  
+.register-container h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #131111;
+}
+
+.register-container input,
+.register-container textarea{
+    padding: 14px;
+    border: 2px solid #857d7d;
+    border-radius: 7px;
+    outline: none; 
+    font-size: 14px;  
+    width: 100%;
+   
+}
+.register-container input{
+    height: 44px;
+}
+.register-container input:focus,
+.register-container textarea:focus {
+    border-color: #463bda;     
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+
+.register-container .btn {
+    height: 44px;
+    background: #d62bec;
+    color: rgb(253, 253, 253);
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 120%;
+    align-items: center;
+}
+
+.cancel-btn{
+    height: 44px;
+    background: #d271df;
+    color: rgb(253, 253, 253);
+    font-size: 16px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 50%;  
+}
+.cancel-btn:hover{
+    background-color: #2464ee;
+}
+
+
+.register-container .btn:hover {
+    background: #2464ee; 
+    margin-top: 20px;       
+}
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;            
+}
+.register-container input,
+.register-container textarea {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #444;
+  font-family: inherit;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  outline-offset: 2px;
+  margin-top: 10px;
+}
+
+.register-container textarea {
+  height: 100px;
+}
+.container-dark .register-container {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #f7f5f5;
+  }
+  
+.container-light .register-container {
+    background: linear-gradient(135deg, #177e79 0%, #8081e4 100%);
+    color: #292626;
+  }
+  

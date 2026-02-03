@@ -1,0 +1,81 @@
+.card{
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 12px 35px rgba(0,0,0,0.25);
+    margin: 18px 14px;
+    width: 300px;
+    height: 450px;
+    border-radius: 18px;
+    margin-top: 70px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 18px 45px rgba(0,0,0,0.35);
+}
+
+.img{
+    height: 100px;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 3px solid rgba(255,255,255,0.4);
+}
+
+.card-content{
+    padding: 16px;
+}
+
+.card-content h1{
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+    color: #5a2a82;
+    font-weight: bold;
+}
+
+.card-content p{
+    margin-bottom: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4b2c5e;
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.icon-center{
+    margin: auto;
+    color: #ff5fa2;
+    font-size: 1.3rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px 16px;
+    margin-top: auto;
+}
+
+.btn{
+    background: linear-gradient(135deg, #ff5fa2, #ff85c1);
+    border-radius: 20px;
+    padding: 6px 14px;
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover{
+    background: linear-gradient(135deg, #ff3d8b, #ff6fb3);
+    transform: scale(1.05);
+}
+
+.nbtn{
+    display: flex;
+    gap: 6px;
+}

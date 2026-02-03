@@ -1,0 +1,43 @@
+.modal-backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.modal{
+    background: linear-gradient(135deg, #fbc2eb, #a6c1ee);
+    padding: 30px 20px;
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal h2{
+    margin-bottom: 10px;
+}
+
+.modal p{
+    color: snow;
+    margin-bottom: 20px;
+}
+
+.modal-actions{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.btn-cancel{
+    background: rgb(233, 245, 203);
+}
+.btn-delete{
+    background: rgb(240, 240, 190);
+    color: #000;
+}

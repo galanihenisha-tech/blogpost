@@ -1,0 +1,117 @@
+nav{
+    width: 100vw;
+    /* background-color: rgb(212, 136, 241); */
+    background: linear-gradient(135deg, #177e79 0%, #8081e4 100%);    
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: larger;
+    height: 70px;
+  }
+  .nav-dark{
+    background: rgb(32, 43, 51);
+  }
+  /* .nav-light{
+    background: #f753ee;
+  } */
+  ul{
+    display: flex;
+  }
+  .btn1{
+    background-color: rgb(23, 9, 231);
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid rgb(15, 99, 224); 
+  }
+  /* .btn-clk{
+    background-color: rgb(212, 136, 241);
+    border: none;
+    outline: none;
+  }
+  .btn-clk:hover{
+    background-color: rgb(163, 212, 26);
+  } */
+  .btn-clk {
+    background-color: transparent;  
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ebabe7 0%, #9c9ddd 100%);
+    width: 70px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+    cursor: pointer;
+    height: 40px;
+  }
+  
+  .btn-clk:hover {
+    color: black;
+  }
+  
+  ul li{
+    list-style-type: none;
+    margin:  10px;
+  }
+  a
+  {
+      text-decoration: none;
+  }
+  
+  a:hover{
+  border: none;
+  }
+  /* nav:hover{
+  background-color: rgb(163, 212, 26);
+  } */
+  img{
+    height: 150px;
+    width: 200px;
+  }
+  .active-link{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-bottom: 2px solid rgb(12, 12, 12);
+    font-size: 18px;
+  }
+  .dark {
+    color: black;
+    font-size: 20px;
+    margin-left: 120px;
+  }
+  .a {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #f753ee 0%, #6467ee 100%);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .a:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  }
+  
+  /* .btn-clk {
+    background: none;
+    border: none;
+    color: black;         
+    font-size: larger;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .btn-clk:hover {
+    text-decoration: underline;
+  }
+   */
+  

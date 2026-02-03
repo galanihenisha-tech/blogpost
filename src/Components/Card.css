@@ -1,0 +1,82 @@
+.card-container{
+    width: 350px;
+    background: linear-gradient(135deg, #177e79 0%, #8081e4 100%);    
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    box-shadow: 0 14px 12px rgb(0,0,0,0.75);
+    margin-top: 20px;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    height: 480px;
+    position: relative;
+}
+.action-btn{
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-left: 170px;
+    margin-top: 30px;
+    gap: 10px;
+    width: 150px;
+    font-size: 13px;
+    display: flex;
+}
+.action-btn button{
+    /* background-color: rgb(38, 41, 206); */
+    color: white;
+    border-radius: 5px;
+    flex: 1;            
+    height: 35px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    background: linear-gradient(135deg, #ee3ce5 0%, #4f51e6 100%); 
+}
+ .edit-btn{
+    background-color: rgb(102, 172, 32);
+}
+.action-btn .delete-btn{
+    background-color: rgb(187, 54, 54);
+}
+
+ .card-container img{
+    display: flex;
+    height: 250px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+     /* object-fit: cover; */
+}
+
+.card-content{
+    text-align: center;
+    font-size: medium;
+}
+.icon-center{
+    display: flex;
+    justify-content: center;
+}
+ .top-button{
+    position: fixed;
+    bottom: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    z-index: 1000;
+    user-select: none;
+    margin-left: 50%;
+ }   
+ .container-dark .card-container {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #0e0d0d;
+  }
+  
+.container-light .card-container {
+    background: linear-gradient(135deg, #177e79 0%, #8081e4 100%);
+    color: #292626;
+  }
